@@ -3012,7 +3012,7 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.Gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(28, 0, 62)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(39, 39, 39))}
 
                 dropdown.SelectedLabel = Instance.new("TextLabel", dropdown.Main)
-                dropdown.SelectedLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                dropdown.SelectedLabel.BackgroundColor3 = Color3.fromRGB(28, 0, 62)
                 dropdown.SelectedLabel.BackgroundTransparency = 1
                 dropdown.SelectedLabel.Position = UDim2.fromOffset(5, 2)
                 dropdown.SelectedLabel.Size = UDim2.fromOffset(130, 13)
