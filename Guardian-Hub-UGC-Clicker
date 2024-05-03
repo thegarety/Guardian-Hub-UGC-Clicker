@@ -2992,7 +2992,7 @@ function library:CreateWindow(name, size, hidebutton)
 
                 dropdown.Main = Instance.new("TextButton", dropdown.MainBack)
                 dropdown.Main.Name = "dropdown"
-                dropdown.Main.BackgroundColor3 = Color3.fromRGB(23, 0, 152)
+                dropdown.Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
                 dropdown.Main.BorderSizePixel = 0
                 dropdown.Main.Size = UDim2.fromOffset(sector.Main.Size.X.Offset - 12, 16)
                 dropdown.Main.Position = UDim2.fromOffset(0, 17)
@@ -3074,7 +3074,7 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.ItemsFrame = Instance.new("ScrollingFrame", dropdown.Main)
                 dropdown.ItemsFrame.Name = "itemsframe"
                 dropdown.ItemsFrame.BorderSizePixel = 0
-                dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(50, 0, 212)
+                dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(28, 0, 222)
                 dropdown.ItemsFrame.Position = UDim2.fromOffset(0, dropdown.Main.Size.Y.Offset + 8)
                 dropdown.ItemsFrame.ScrollBarThickness = 2
                 dropdown.ItemsFrame.ZIndex = 8
