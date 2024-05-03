@@ -3040,7 +3040,7 @@ function library:CreateWindow(name, size, hidebutton)
 
                 dropdown.BlackOutline2 = Instance.new("Frame", dropdown.Main)
                 dropdown.BlackOutline2.Name = "blackline"
-                dropdown.BlackOutline2.ZIndex = 4
+                dropdown.BlackOutline2.ZIndex = 1
                 dropdown.BlackOutline2.Size = dropdown.Main.Size + UDim2.fromOffset(6, 6)
                 dropdown.BlackOutline2.BorderSizePixel = 0
                 dropdown.BlackOutline2.BackgroundColor3 = window.theme.outlinecolor2
