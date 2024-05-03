@@ -3074,7 +3074,7 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.ItemsFrame = Instance.new("ScrollingFrame", dropdown.Main)
                 dropdown.ItemsFrame.Name = "itemsframe"
                 dropdown.ItemsFrame.BorderSizePixel = 0
-                dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(50, 0, 212)
                 dropdown.ItemsFrame.Position = UDim2.fromOffset(0, dropdown.Main.Size.Y.Offset + 8)
                 dropdown.ItemsFrame.ScrollBarThickness = 2
                 dropdown.ItemsFrame.ZIndex = 8
