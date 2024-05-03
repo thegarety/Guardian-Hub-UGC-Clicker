@@ -3034,8 +3034,8 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.Nav.Position = UDim2.fromOffset(sector.Main.Size.X.Offset - 26, 5)
                 dropdown.Nav.Rotation = 90
                 dropdown.Nav.ZIndex = 5
-                dropdown.Nav.Size = UDim2.fromOffset(20, 20)
-                dropdown.Nav.Image = "rbxassetid://6031091004"
+                dropdown.Nav.Size = UDim2.fromOffset(8, 8)
+                dropdown.Nav.Image = "rbxassetid://4918373417"
                 dropdown.Nav.ImageColor3 = Color3.fromRGB(255, 255, 255)
 
                 dropdown.BlackOutline2 = Instance.new("Frame", dropdown.Main)
