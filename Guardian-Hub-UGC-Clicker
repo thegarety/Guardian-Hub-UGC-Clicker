@@ -28,8 +28,8 @@ library.theme = {
     backgroundcolor = Color3.fromRGB(28, 0, 62),
     tabstextcolor = Color3.fromRGB(69, 0, 220),
     bordercolor = Color3.fromRGB(56, 0, 120),
-    accentcolor = Color3.fromRGB(56, 0, 120),
-    accentcolor2 = Color3.fromRGB(56, 0, 120),
+    accentcolor = Color3.fromRGB(69, 0, 220),
+    accentcolor2 = Color3.fromRGB(60, 0, 150),
     outlinecolor = Color3.fromRGB(61, 0, 153),
     outlinecolor2 = Color3.fromRGB(61, 0, 180),
     sectorcolor = Color3.fromRGB(28, 0, 80),
@@ -39,8 +39,8 @@ library.theme = {
     topcolor2 = Color3.fromRGB(28, 0, 80),
     buttoncolor = Color3.fromRGB(69, 0, 220),
     buttoncolor2 = Color3.fromRGB(60, 0, 150),
-    itemscolor = Color3.fromRGB(56, 0, 120),
-    itemscolor2 = Color3.fromRGB(56, 0, 120)
+    itemscolor = Color3.fromRGB(69, 0, 220),
+    itemscolor2 = Color3.fromRGB(60, 0, 150)
 }
 
 if library.theme.cursor and Drawing then
