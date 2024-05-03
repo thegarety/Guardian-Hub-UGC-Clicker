@@ -2086,7 +2086,7 @@ function library:CreateWindow(name, size, hidebutton)
 
                 slider.Main = Instance.new("TextButton", slider.MainBack)
                 slider.Main.Name = "slider"
-                slider.Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                slider.Main.BackgroundColor3 = Color3.fromRGB(62, 0, 250)
                 slider.Main.Position = UDim2.fromOffset(0, 15)
                 slider.Main.BorderSizePixel = 0
                 slider.Main.Size = UDim2.fromOffset(sector.Main.Size.X.Offset - 12, 12)
