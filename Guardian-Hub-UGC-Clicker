@@ -2489,8 +2489,8 @@ function library:CreateWindow(name, size, hidebutton)
                     dropdown.Nav.Rotation = 90
                     dropdown.Nav.ZIndex = 5
                     dropdown.Nav.Size = UDim2.fromOffset(8, 8)
-                    dropdown.Nav.Image = "rbxassetid://4918373417"
-                    dropdown.Nav.ImageColor3 = Color3.fromRGB(210, 210, 210)
+                    dropdown.Nav.Image = "http://www.roblox.com/asset/?id=6031091004"
+                    dropdown.Nav.ImageColor3 = Color3.fromRGB(255, 255, 255)
     
                     dropdown.BlackOutline2 = Instance.new("Frame", dropdown.Main)
                     dropdown.BlackOutline2.Name = "blackline"
