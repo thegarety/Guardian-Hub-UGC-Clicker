@@ -39,7 +39,7 @@ library.theme = {
     topcolor2 = Color3.fromRGB(28, 0, 80),
     buttoncolor = Color3.fromRGB(69, 0, 220),
     buttoncolor2 = Color3.fromRGB(60, 0, 150),
-    itemscolor = Color3.fromRGB(69, 0, 220),
+    itemscolor = Color3.fromRGB(69, 0, 250),
     itemscolor2 = Color3.fromRGB(70, 0, 800)
 }
 
