@@ -627,6 +627,7 @@ function library:CreateWindow(name, size, hidebutton)
             sector.LabelBackFrame.Size = UDim2.fromOffset(sector.Label.Size.X.Offset, 10)
             sector.LabelBackFrame.BorderSizePixel = 0
             sector.LabelBackFrame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+
             sector.LabelBackFrame.Position = UDim2.fromOffset(sector.Label.Position.X.Offset, sector.BlackOutline2.Position.Y.Offset)
 
             sector.Items = Instance.new("Frame", sector.Main) 
@@ -1087,7 +1088,7 @@ function library:CreateWindow(name, size, hidebutton)
                     dropdown.ItemsFrame = Instance.new("ScrollingFrame", dropdown.Main)
                     dropdown.ItemsFrame.Name = "itemsframe"
                     dropdown.ItemsFrame.BorderSizePixel = 0
-                    dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                    dropdown.ItemsFrame.BackgroundColor3 = Color3.fromRGB(28, 0, 62)
                     dropdown.ItemsFrame.Position = UDim2.fromOffset(0, dropdown.Main.Size.Y.Offset + 8)
                     dropdown.ItemsFrame.ScrollBarThickness = 2
                     dropdown.ItemsFrame.ZIndex = 8
