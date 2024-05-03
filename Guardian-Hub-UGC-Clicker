@@ -1244,11 +1244,11 @@ function library:CreateWindow(name, size, hidebutton)
     
                         runservice.RenderStepped:Connect(function()
                             if dropdown.multichoice and dropdown:isSelected(v) or dropdown.values[1] == v then
-                                Item.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+                                Item.BackgroundColor3 = Color3.fromRGB(69, 0, 220)
                                 Item.TextColor3 = window.theme.accentcolor
                                 Item.Text = " " .. v
                             else
-                                Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                                Item.BackgroundColor3 = Color3.fromRGB(69, 0, 220)
                                 Item.TextColor3 = Color3.fromRGB(255, 255, 255)
                                 Item.Text = v
                             end
