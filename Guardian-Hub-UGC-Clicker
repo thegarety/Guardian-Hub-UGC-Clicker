@@ -32,7 +32,7 @@ library.theme = {
     accentcolor2 = Color3.fromRGB(61, 0, 153),
     outlinecolor = Color3.fromRGB(61, 0, 153),
     outlinecolor2 = Color3.fromRGB(56, 0, 120),
-    sectorcolor = Color3.fromRGB(56, 0, 120),
+    sectorcolor = Color3.fromRGB(69, 0, 220),
     toptextcolor = Color3.fromRGB(69, 0, 250),
     topheight = 48,
     topcolor = Color3.fromRGB(28, 0, 80),
@@ -126,7 +126,7 @@ function library:CreateWatermark(name, position)
     watermark.label.ZIndex = 6
     watermark.label.Visible = watermark.Visible
     watermark.label.Text = watermark.text
-    watermark.label.TextColor3 = Color3.fromRGB(255, 255, 255)
+    watermark.label.TextColor3 = Color3.fromRGB(69, 0, 220)
     watermark.label.TextSize = 15
     watermark.label.TextStrokeTransparency = 0.000
     watermark.label.TextXAlignment = Enum.TextXAlignment.Left
