@@ -2973,7 +2973,7 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.MainBack.BackgroundTransparency = 1
 
                 dropdown.Label = Instance.new("TextLabel", dropdown.MainBack)
-                dropdown.Label.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+                dropdown.Label.BackgroundColor3 = Color3.fromRGB(20, 0, 64)
                 dropdown.Label.BackgroundTransparency = 1
                 dropdown.Label.Size = UDim2.fromOffset(sector.Main.Size.X.Offset - 12, 10)
                 dropdown.Label.Position = UDim2.fromOffset(0, 0)
