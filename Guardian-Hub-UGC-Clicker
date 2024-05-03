@@ -26,7 +26,7 @@ library.theme = {
     cursor = true,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(28, 0, 62),
-    tabstextcolor = Color3.fromRGB(120, 0, 250),
+    tabstextcolor = Color3.fromRGB(69, 0, 220),
     bordercolor = Color3.fromRGB(56, 0, 120),
     accentcolor = Color3.fromRGB(69, 0, 220),
     accentcolor2 = Color3.fromRGB(60, 0, 150),
@@ -1197,7 +1197,7 @@ function library:CreateWindow(name, size, hidebutton)
                     dropdown.items = { }
                     function dropdown:Add(v)
                         local Item = Instance.new("TextButton", dropdown.ItemsFrame)
-                        Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                        Item.BackgroundColor3 = Color3.fromRGB(28, 0, 62)
                         Item.TextColor3 = Color3.fromRGB(255, 255, 255)
                         Item.BorderSizePixel = 0
                         Item.Position = UDim2.fromOffset(0, 0)
