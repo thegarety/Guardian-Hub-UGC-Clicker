@@ -2636,7 +2636,7 @@ function library:CreateWindow(name, size, hidebutton)
                     dropdown.items = { }
                     function dropdown:Add(v)
                         local Item = Instance.new("TextButton", dropdown.ItemsFrame)
-                        Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                        Item.BackgroundColor3 = Color3.fromRGB(69, 0, 220)
                         Item.TextColor3 = Color3.fromRGB(255, 255, 255)
                         Item.BorderSizePixel = 0
                         Item.Position = UDim2.fromOffset(0, 0)
