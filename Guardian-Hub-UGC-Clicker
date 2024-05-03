@@ -126,7 +126,7 @@ function library:CreateWatermark(name, position)
     watermark.label.ZIndex = 6
     watermark.label.Visible = watermark.Visible
     watermark.label.Text = watermark.text
-    watermark.label.TextColor3 = Color3.fromRGB(56, 0, 120)
+    watermark.label.TextColor3 = Color3.fromRGB(69, 0, 220)
     watermark.label.TextSize = 15
     watermark.label.TextStrokeTransparency = 0.000
     watermark.label.TextXAlignment = Enum.TextXAlignment.Left
