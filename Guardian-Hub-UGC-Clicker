@@ -26,8 +26,8 @@ library.theme = {
     cursor = true,
     cursorimg = "https://t0.rbxcdn.com/42f66da98c40252ee151326a82aab51f",
     backgroundcolor = Color3.fromRGB(28, 0, 62),
-    tabstextcolor = Color3.fromRGB(68, 0, 230),
-    bordercolor = Color3.fromRGB(100, 0, 120),
+    tabstextcolor = Color3.fromRGB(60, 0, 230),
+    bordercolor = Color3.fromRGB(1, 0, 120),
     accentcolor = Color3.fromRGB(60, 0, 200),
     accentcolor2 = Color3.fromRGB(20, 0, 170),
     outlinecolor = Color3.fromRGB(50, 60, 253),
@@ -40,7 +40,7 @@ library.theme = {
     buttoncolor = Color3.fromRGB(69, 0, 220),
     buttoncolor2 = Color3.fromRGB(60, 0, 150),
     itemscolor = Color3.fromRGB(69, 0, 250),
-    itemscolor2 = Color3.fromRGB(90, 0, 300)
+    itemscolor2 = Color3.fromRGB(50, 60, 253)
 }
 
 if library.theme.cursor and Drawing then
