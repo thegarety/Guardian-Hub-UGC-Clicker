@@ -3018,7 +3018,7 @@ function library:CreateWindow(name, size, hidebutton)
                 dropdown.SelectedLabel.Size = UDim2.fromOffset(130, 13)
                 dropdown.SelectedLabel.Font = window.theme.font
                 dropdown.SelectedLabel.Text = dropdown.text
-                dropdown.SelectedLabel.ZIndex = 5
+                dropdown.SelectedLabel.ZIndex = 4
                 dropdown.SelectedLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
                 dropdown.SelectedLabel.TextSize = 15
                 dropdown.SelectedLabel.TextStrokeTransparency = 1
@@ -3234,11 +3234,11 @@ function library:CreateWindow(name, size, hidebutton)
 
                     runservice.RenderStepped:Connect(function()
                         if dropdown.multichoice and dropdown:isSelected(v) or dropdown.values[1] == v then
-                            Item.BackgroundColor3 = Color3.fromRGB(64, 64, 64)
+                            Item.BackgroundColor3 = Color3.fromRGB(20, 0, 64)
                             Item.TextColor3 = window.theme.accentcolor
                             Item.Text = " " .. v
                         else
-                            Item.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+                            Item.BackgroundColor3 = Color3.fromRGB(20, 0, 64)
                             Item.TextColor3 = Color3.fromRGB(255, 255, 255)
                             Item.Text = v
                         end
